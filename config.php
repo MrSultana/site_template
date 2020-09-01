@@ -3,6 +3,6 @@
 
     define ("DB_NAME", "game_database");
     define ("DB_USERNAME", "root");
-    define ("DB_PASSWORD", "usbw");
-    define ("DB_HOST", "127.0.0.1");
+    define ("DB_PASSWORD", "");
+    define ("DB_HOST", "localhost");
 ?>
