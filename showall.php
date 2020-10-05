@@ -51,7 +51,61 @@
                                 ?>
                             </div>
 
-                            <!-- /Heading and Subtitle -->
+                            <!-- / Heading and Subtitle -->
+
+                            <!-- Ratings Area -->
+
+                            <div class="flex-container">
+
+                                <!-- Partial Stars Original Source:
+                                https://codepen.io/Bluetidepro/pen/GkpEa -->
+                                <div class="star-ratings-sprite">
+
+                                </div> <!-- / Star rating div -->
+
+                                <div class="actual-rating">
+                                    (<?php echo $find_rs['User Rating'] ?> based on # ratings)
+                                </div> <!-- / Text rating div -->
+                            
+                            </div>
+
+
+                            <!-- / Ratings Area -->
+
+                            <!-- Price -->
+
+                            <?php 
+                                if($find_rs['Price'] == 0) {
+                                    ?>
+                                    <p>
+                                    Free!
+                                    <?php 
+                                        if($find_rs['In App'] == 1) {
+                                            ?>
+
+                                                (In App Purchase)
+                                                
+                                            <?php
+
+                                        } // end In App if
+                                    ?>
+                                    
+                                    
+                                    
+                                    
+                                    </p>
+
+                                    <?php
+                                } // end price if
+                                else {
+                                    ?>
+
+                                    <b>Price:</b> $<?php echo $find_rs['Price'] ?>
+
+                                    <?php
+                                } // end price else
+                            ?>
+                            <!-- / Price -->
 
                                 <br />
 
