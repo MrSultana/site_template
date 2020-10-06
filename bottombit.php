@@ -9,6 +9,9 @@
 
             <div class="box footer">
                 CC GTT 20XX
+                <p>
+                    Thank you Bluetidepro for the star rating code, found on <a href="https://codepen.io/Bluetidepro/pen/GkpEa">https://codepen.io/Bluetidepro/pen/GkpEa</a>
+                </p>
             </div> <!-- / Footer -->
 
 
